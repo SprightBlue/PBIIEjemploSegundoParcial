@@ -25,7 +25,7 @@ public class Mapa {
 		this.vehiculos.add(vehiculo);
 	}
 
-	public Object getCantidadDeVehiculos() {
+	public Integer getCantidadDeVehiculos() {
 		return this.vehiculos.size();
 	}
 
